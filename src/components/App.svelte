@@ -1,6 +1,6 @@
 <script>
   let dateStart = new Date().getTime();
-  let dateEnd = new Date("2020-07-15").getTime();
+  let dateEnd = new Date("2020-07-06").getTime();
   let diff = dateEnd - dateStart;
   let date = Math.round(diff / (1000 * 60 * 60 * 24));
 </script>
